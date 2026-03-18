@@ -1,6 +1,12 @@
 from abc import ABC, abstractmethod
 
 """
+@property       "Access a method like an attribute"
+@classmethod 	"A method that belongs to the class, not the instance"
+@staticmethod	"A regular function that just lives inside the class"
+@abstractmethod	"A method that subclasses MUST implement"
+
+
 Does the method need access to instance data (self)?
 ├── YES → Does it need to enforce implementation?
 │         ├── YES → @abstractmethod
