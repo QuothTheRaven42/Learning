@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 """
-@property       "Access a method like an attribute"
+@property       "Access a method like an attribute w/out parentheses"
 @classmethod 	"A method that belongs to the class, not the instance"
 @staticmethod	"A regular function that just lives inside the class"
 @abstractmethod	"A method that subclasses MUST implement"
